@@ -150,6 +150,7 @@ if __name__ == "__main__":
 
     # Load network
     detector = cv.dnn.readNet(modelDetector)
+    # detector = cv.dnn.readNetFromTensorflow(modelDetector)
     recognizer = cv.dnn.readNet(modelRecognition)
 
     outNames = []
