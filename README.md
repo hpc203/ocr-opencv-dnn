@@ -1,5 +1,5 @@
 # 极简主义OCR
-在这个OCR程序中，文本检测用的是EAST，文本识别用的是CRNN，有Python和C++两种版本的实现
+在这个OCR程序中，文本检测用的是EAST，文本识别用的是CRNN，这套程序有Python和C++两种版本的实现。
 这两个网络的前向推理依靠opencv的dnn模块实现的，整个程序的运行不依赖任何深度学习框架pytorch,tensorflow等等的。
 
 Python版本的主程序是text_detect_recognition.py，C++版本的主程序是text_detect_recognition.cpp。
