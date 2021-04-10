@@ -11,4 +11,4 @@ crnn的模型下载链接是：https://drive.google.com/drive/folders/1cTbQ3nuZG
 在编写这套程序时，我有一个疑惑，具体内容可参见我的CSDN博客文章：
 https://blog.csdn.net/nihate/article/details/108754622
 
-2021年，我发布了使用DBNet做文字检测的程序，包含C++和Python两个版本的。可以把上面的程序里的文件检测模块EAST网络替换成DBNet
+2021年，我发布了使用DBNet做文字检测的程序，包含C++和Python两个版本的。可以把上面的程序里的文字检测模块EAST网络替换成DBNet
